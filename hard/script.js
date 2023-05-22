@@ -1,11 +1,11 @@
-function updateBodyClass(className) {
+function update(className) {
   document.body.classList = [className];
 }
 
 document.getElementById("redButton").addEventListener("click", function () {
-  updateBodyClass("red-background");
+  update("red");
 });
 
 document.getElementById("whiteButton").addEventListener("click", function () {
-  updateBodyClass("white-background");
+  update("white");
 });
